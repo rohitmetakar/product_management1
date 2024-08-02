@@ -9,6 +9,7 @@ const categorySchema = new mongoose.Schema({
     },
 });
 
+// create User model using the schema
 const Category = mongoose.model('Category', categorySchema);
 
 module.exports = Category;
